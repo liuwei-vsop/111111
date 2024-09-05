@@ -1,4 +1,4 @@
-var url = "https://api-xh.hsyuntai.com/hs-xh-single-web/r/173/20044/001"
+var url = "https://api-xh.hsyuntai.com:443/hs-xh-single-web/r/173/20044/001"
  
 var time = 10000;
 var timeout = false;
