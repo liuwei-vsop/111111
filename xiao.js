@@ -1,1 +1,1 @@
-const url = 'http://example.com'; // 替换网址 function request三次() { for (let i = 0; i < 3; i++) { fetch(url) .then(response => response.text()) .then(data => console.log(`请求成功，数据： $ {data}`)) .catch(error => console.log(`请求失败，错误： $ {error}`)); } } request三次();
+const url = 'https://api-xh.hsyuntai.com:443/hs-xh-single-web/r/173/20044/001'; // 替换网址 function request三次() { for (let i = 0; i < 3; i++) { fetch(url) .then(response => response.text()) .then(data => console.log(`请求成功，数据： $ {data}`)) .catch(error => console.log(`请求失败，错误： $ {error}`)); } } request三次();
